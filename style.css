@@ -1,0 +1,115 @@
+body h1,h2,h3,p,ul,li{
+    margin:0;
+    padding:0;
+}
+body{
+  font-family:arial,sans-serif;
+  min-height:100vh;
+  display:flex;
+  flex-direction:column;
+}
+header{
+  display:flex;
+  align-items:center;
+  padding:20px;
+  background-color:#0d1470;
+  color:rgb(201, 173, 173);
+}
+.logo img{
+     max-height:60 px;
+}
+.college-info{
+   margin-left:20px;
+}
+nav{
+  background-color:#295364;
+}
+.menu{
+  display:flex;
+  list-style:none;
+  padding:10px;
+   
+}
+.menu li{
+   margin-right:20px;
+    
+}
+.menu a{
+   color:rgb(240, 234, 234);
+   text-decoration:none;
+    text-align: justify;
+  font-family: Arial, Helvetica, sans-serif;
+height: 20px;
+  line-height: 20px;
+  padding: 20px 15px;
+}
+.main\.content img {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+}
+img{
+    max-width:100%;
+    height:auto;
+    
+}
+.main {
+    font-size: 0.7rem;
+    line-height: 1.4;
+}
+.submenu{
+    display:none;
+    position:fixed;
+    background-color:#2d5361;
+    list-style:none;
+}
+.dropdown:hover  .submenu{
+   display:block;
+}
+.submenu li{
+   margin:5px 0;
+    padding:5px 20px;
+
+}
+li a:hover{
+   background-color:rgba(57, 89, 130, 0.384);
+   color:black;
+   margin:5px 0;
+    padding:5px 20px;
+}
+footer{
+  margin-top:auto;
+  background-color:#1b3b6c;
+  color:rgb(233, 225, 225);
+  text-align:center;
+  padding:20px;
+}
+.main-about{
+  padding:20px;
+
+
+
+  
+  
+}
+.soical-links a{
+  color:#e70505;
+  text-decoration:none;
+  margin:0 10px;
+   
+}
+.soical-links img {
+    width: 30px;
+    height: 30px;
+}
+@media screen and (max-width:768px){
+header{
+   flex-direction:column;
+}
+.logo{
+   margin-bottom:1rem;
+   
+}
+}    
